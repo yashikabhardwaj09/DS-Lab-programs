@@ -14,7 +14,7 @@ scanf("%d",&key);
 l=0;
 r=n-1;
 while l<=r{
-    mid=(l+r)/2;
+    mid=l+(r-l)/2;
     if(arr[mid]==key){
         flag=1;
         break;
